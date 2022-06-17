@@ -116,3 +116,47 @@ section {
 	color: hsl(228, 45%, 44%);
 }
 
+@media screen and (min-width: 1440px) {
+	body {
+		display: grid;
+		place-content: center;
+		padding: unset;
+		min-height: 100vh;
+	}
+	section {
+		max-width: 80%;
+		flex-direction: unset;
+	}
+
+	.illustration-container,
+	.copy {
+		order: unset;
+		width: 50%;
+	}
+
+	.copy {
+		box-sizing: border-box;
+		text-align: unset;
+		padding: 3rem 6.5rem 3rem 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+		line-height: 2.8rem;
+	}
+
+	.copy p {
+		margin-bottom: auto;
+		font-size: 1.1rem;
+	}
+
+	.stats {
+		min-height: unset;
+		flex-direction: unset;
+		width: 80%;
+	}
+}
