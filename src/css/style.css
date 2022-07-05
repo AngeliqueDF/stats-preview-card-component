@@ -52,7 +52,7 @@ section {
 
 .illustration-container,
 .illustration-container::after,
-#illustration {
+.illustration {
 	border-radius: var(--img-border-radius-mobile);
 }
 
@@ -75,9 +75,10 @@ section {
 	filter: brightness(0.5) saturate(200%);
 }
 
-#illustration {
+.illustration {
 	position: relative;
 	background-color: var(--soft-violet);
+	height: 100%;
 	width: 100%;
 }
 
@@ -126,6 +127,12 @@ section {
 	section {
 		max-width: 80%;
 		flex-direction: unset;
+	}
+
+	.illustration,
+	.illustration-container,
+	.illustration-container::after {
+		border-radius: unset;
 	}
 
 	.illustration-container,
