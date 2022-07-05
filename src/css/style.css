@@ -128,6 +128,12 @@ section {
 		flex-direction: unset;
 	}
 
+	.illustration,
+	.illustration-container,
+	.illustration-container::after {
+		border-radius: unset;
+	}
+
 	.illustration-container,
 	.copy {
 		order: unset;
