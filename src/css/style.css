@@ -78,6 +78,7 @@ section {
 .illustration {
 	position: relative;
 	background-color: var(--soft-violet);
+	height: 100%;
 	width: 100%;
 }
 
